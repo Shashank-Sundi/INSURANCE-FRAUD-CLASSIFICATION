@@ -4,246 +4,230 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HEALTH COMMODITY SHIPMENT PRICE PREDICTION</title>
+    <title>INSURANCE CLAIM FRAUD CLASSIFICATION</title>
     <link rel="stylesheet" href="../static/styles/index_page.css">
 
 </head>
 
 
     <body class='bg'>
-            <div class="content" style="background-color: rgba(99, 11, 99, 0.8) ; color:rgb(253, 242, 242);">
-                <h1 style="text-align: center">HEALTH COMMODITY SHIPMENT PRICE PREDICTION</h1>
+            <div class="content" style="background-color: rgba(88, 10, 27, 0.8) ; color:rgb(253, 242, 242);">
+                <h1 style="text-align: center">INSURANCE CLAIM FRAUD CLASSIFICATION</h1>
 
                 <div class="form">
                     <p><u><b>Enter the Required Parameters :</b></u></p>
                     <form action="/Prediction" method="POST" autocomplete="on">
 
-                        <label for="Country"><b>Country</b></label>
-                        <select name="Country" id="Country" >
-                            <option value="South Africa">South Africa</option>
-                            <option value="Nigeria">Nigeria</option>
-                            <option value="Côte d'Ivoire">Côte d'Ivoire</option>
-                            <option value="Uganda">Uganda</option>
-                            <option value="Vietnam">Vietnam</option>
-                            <option value="Zambia">Zambia</option>
-                            <option value="Haiti">Haiti</option>
-                            <option value="Mozambique">Mozambique</option>
-                            <option value="Zimbabwe">Zimbabwe</option>
-                            <option value="Other">Other</option>
+                        <!--  'incident_type','collision_type','incident_severity', 'auto_make',
+                            'incident_state', 'incident_city','number_of_vehicles_involved'
+                        , 'authorities_contacted','witnesses','police_report_available',
+                        'property_claim','vehicle_claim', 'injury_claim','property_damage', 
+                        'policy_csl','umbrella_limit','claim_duration',
+                        'insured_occupation', 'insured_relationship','insured_hobbies' -->
+
+                        <!-- Frequency Encoding -->
+                        <label for="incident_type"><b>Incident Type</b></label>&nbsp;&nbsp;
+                        <select name="incident_type" id="incident_type">
+                            <option value="Multi-vehicle Collision">Multi-vehicle Collision</option>
+                            <option value="Parked Car">Parked Car</option>
+                            <option value="Single Vehicle Collision">Single Vehicle Collision</option>
+                            <option value="Vehicle Theft">Vehicle Theft</option>
                         </select>
-                        &nbsp; &nbsp;
+                        &nbsp;&nbsp;
 
-                        <label for="Manufacturing Site"><b>Manufacturing Site</b></label>
-                        <select name="Manufacturing Site" id="Manufacturing Site" >
-                            <option value="Aurobindo Unit III, India">Aurobindo Unit III, India</option>
-                            <option value="Mylan (formerly Matrix) Nashik">Mylan, Nashik</option>
-                            <option value="Hetero Unit III Hyderabad IN">Hetero Unit III ,Hyderabad</option>
-                            <option value="Cipla, Goa, India">Cipla, Goa, India</option>
-                            <option value="Strides, Bangalore, India">Strides,Bangalore,India</option>
-                            <option value="Alere Medical Co., Ltd.">Alere Medical Co. Ltd.</option>
-                            <option value="Trinity Biotech, Plc">Trinity Biotech, Plc</option>
-                            <option value="ABBVIE Ludwigshafen Germany">ABBVIE Logistics , Germany </option>
-                            <option value="Inverness Japan">Inverness Japan</option>
-                            <option value="Other">Other</option>
+                        <!-- Mean Encodng -->
+                        <label for="collision_type"><b>Incident Type</b></label>&nbsp;&nbsp;
+                        <select name="collision_typee" id="collision_type">
+                            <option value="Front Collision">Front Collision</option>
+                            <option value="Rear Collision">Rear Collision</option>
+                            <option value="Side Collision">Side Collision</option>
                         </select>
-                        &nbsp; &nbsp;
+                        &nbsp;&nbsp;
 
-                        <label for="Brand"><b>Brand</b></label>
-                        <select name="Brand" id="Brand" >
-                            <option value="Aluvia">Aluvia</option>
-                            <option value="Uni-Gold">Uni-Gold</option>
-                            <option value="Generic">Generic</option>
-                            <option value="Determine">Determine</option>
-                            <option value="Kaletra">Kaletra</option>
-                            <option value="Norvir">Norvir</option>
-                            <option value="Stat-Pak">Stat-Pak</option>
-                            <option value="Bioline">Bioline</option>
-                            <option value="Truvada">Truvada</option>
-                            <option value="Other">Other</option>
+                        <!-- Ordinal Encoding-->
+                        <label for="incident_severity"><b>Incident Severity</b></label>&nbsp;&nbsp;
+                        <select name="incident_severity" id="incident_severity">
+                            <option value=5>Trivial Damage</option>
+                            <option value=6>Minor Damage</option>
+                            <option value=7>Total Loss</option>
+                            <option value=8>Major Damage</option>
                         </select>
-                        &nbsp; &nbsp;
+                        &nbsp;&nbsp;
 
-                        <label for="Item Description"><b>Item Description</b></label>
-                        <select name="Item Description" id="Item Description" >
-                            <option value="Efavirenz 600mg, tablets, 30 Tabs">Efavirenz 600mg tablets</option>
-                            <option value="Nevirapine 200mg, tablets, 60 Tabs">Nevirapine 200mg tablets</option>
-                            <option value="Lamivudine/Zidovudine 150/300mg, tablets, 60 Tabs">Lamivudine/Zidovudine 150/300mg tablets</option>
-                            <option value="Lamivudine/Nevirapine/Zidovudine 150/200/300mg, tablets, 60 Tabs">Lamivud/Nevirap/Zidovud 150/200/300mg tablets</option>
-                            <option value="HIV 1/2, Determine Complete HIV Kit, 100 Tests">HIV 1/2, Determine Complete HIV Kit</option>
-                            <option value="Lamivudine 150mg, tablets, 60 Tabs">Lamivudine 150mg tablets</option>
-                            <option value="HIV 1/2, Uni-Gold HIV Kit, 20 Tests">HIV 1/2, Uni-Gold HIV Kit</option>
-                            <option value="Zidovudine 300mg, tablets, 60 Tabs">Zidovudine 300mg, tablets</option>
-                            <option value="Lamivudine/Tenofovir Disoproxil Fumarate 300/300mg, tablets, 30 Tabs">Lamivud/Tenofovir Fumarate 300/300mg tablets</option>
-                            <option value="Other">Other</option>
+                        <!-- Mean Encoding -->
+                        <label for="auto_make"><b>Car Manufacturer</b></label>&nbsp;&nbsp;
+                        <select name="auto_make" id="auto_make">
+                            <option value="Audi">Audi</option>
+                            <option value="Accura">Accura</option>
+                            <option value="BMW">BMW</option>
+                            <option value="Chevrolet">Chevrolet</option>
+                            <option value="Dodge">Dodge</option>
+                            <option value="Ford">Ford</option>
+                            <option value="Honda">Honda</option>
+                            <option value="Jeep">Jeep</option>
+                            <option value="Mercedes">Mercedes</option>
+                            <option value="Nissan">Nissan</option>
+                            <option value="Saab">Saab</option>
+                            <option value="Suburu">Suburu</option>
+                            <option value="Toyota">Toyota</option>
+                            <option value="Volkswagen">Volkswagen</option>
                         </select>
-                        &nbsp; &nbsp;
+                        &nbsp;&nbsp;
 
-                        
-
-                        <label for="Product Group"><b>Product Group</b></label>
-                        <select name="Product Group" id="Product Group" >
-                            <option value="ARV">Anti-Retroviral</option>
-                            <option value="HRDT">HIV Rapid Diagnostic Test</option>
-                            <option value="ANTM">ANTM</option>
-                            <option value="ACT"> Activated clotting time Test</option>
-                            <option value="MRDT">Malaria rapid diagnostic test</option>
+                        <!-- Mean Encoding -->
+                        <label for="incident_state"><b>Incident State</b></label>&nbsp;&nbsp;
+                        <select name="incident_state" id="incident_state">
+                            <option value="NC">North Carolina</option>
+                            <option value="NY">New York</option>
+                            <option value="OH">Ohio</option>
+                            <option value="PA">Pennsylvania</option>
+                            <option value="SC">South Carolina</option>
+                            <option value="VA">Virginia</option>
+                            <option value="WV">West Virginia</option>
                         </select>
-                        &nbsp; &nbsp;
-
+                        &nbsp;&nbsp;
                         <br><br>
 
-                        <label for="Sub Classification"><b>Sub Classification</b></label>
-                        <select name="Sub Classification" id="Sub Classification" >
-                            <option value="Adult">Adult</option>
-                            <option value="Pediatri">Pediatri</option>
-                            <option value="HIV test">HIV test</option>
-                            <option value="HIV test - Ancillary">HIV test - Ancillary</option>
-                            <option value="Malaria">Malaria</option>
-                            <option value="ACT">ACT</option>
+                        <!-- Mean Encoding -->
+                        <label for="incident_city"><b>Incident City</b></label>&nbsp;&nbsp;
+                        <select name="incident_city" id="incident_city">
+                            <option value="Arlington">Arlington</option>
+                            <option value="Columnbus">Columbus</option>
+                            <option value="Hillsdale">Hillsdale</option>
+                            <option value="Northbend">Northbend</option>
+                            <option value="Northbrook">Northbrook</option>
+                            <option value="Riverwood">Riverwood</option>
+                            <option value="Springfield">Springfield</option>
                         </select>
-                        &nbsp; &nbsp;
-
-
-                        <label for="Molecule/Test Type"><b>Molecule/Test Type</b></label>
-                        <select name="Molecule/Test Type" id="Molecule/Test Type" >
-                            <option value="Efavirenz">Efavirenz</option>
-                            <option value="Nevirapine">Nevirapine</option>
-                            <option value="Lamivudine/Nevirapine/Zidovudine">Lamivud/Nevirap/Zidovud-ine</option>
-                            <option value="Lamivudine/Zidovudine">Lamivud/Zidovud-ine</option>
-                            <option value="Lopinavir/Ritonavir">Lopinavir/Ritonavir</option>
-                            <option value="Lamivudine">Lamivudine</option>
-                            <option value="HIV 1/2, Determine Complete HIV Kit">HIV 1/2,Determine Kit</option>
-                            <option value="Zidovudine">Zidovudine</option>
-                            <option value="Abacavir">Abacavir</option>
-                            <option value="HIV 1/2, Uni-Gold HIV Kit">'HIV 1/2,Uni-Gold Kit'</option>
-                            <option value="Other">Other</option>
+                        &nbsp;&nbsp;
+                        <!-- Numeric -->
+                        <label for="number_of_vehicles_involved"><b>Number of Vehicles involved</b></label>&nbsp;&nbsp;
+                        <input type="number" name="number_of_vehicles_involved" id="number_of_vehicles_involved" placeholder="include claimer"  max=30 min=0 required>
+                        &nbsp;&nbsp;
+                      
+                        <!-- Ordinal -->
+                        <label for="authorities_contacted"><b>Authorities Contacted</b></label>&nbsp;&nbsp;
+                        <select name="authorities_contacted" id="authorities_contacted">
+                            <option value=6>Police</option>
+                            <option value=7>Fire</option>
+                            <option value=8>Ambulance</option>
+                            <option value=9>Other</option>
+                            <option value=5>None</option>
                         </select>
-                        &nbsp; &nbsp;
+                        &nbsp;&nbsp;
 
-                        <label for="Dosage Form"><b>Dosage Form</b></label>
-                        <select name="Dosage Form" id="Dosage Form" >
-                            <option value="Tablet">Tablet</option>
-                            <option value="Tablet - FDC">Tablet - FDC</option>
-                            <option value="Test kit">Test kit</option>
-                            <option value="Capsule">Capsule</option>
-                            <option value="Oral solution">Oral solution</option>
-                            <option value="Chewable/dispersible tablet - FDC">Chewable/dispersible tablet-FDC</option>
-                            <option value="Oral suspension">Oral suspension</option>
-                            <option value="Test kit - Ancillary">Test kit - Ancillary</option>
-                            <option value="Chewable/dispersible tablet">Chewable/dispersible tablet</option>
-                            <option value="Delayed-release capsules">Delayed-release capsules</option>
-                            <option value="Other">Other</option>
+                        <!-- Numeric -->
+                        <label for="witnesses"><b>Number of Witnesses</b></label>&nbsp;&nbsp;
+                        <input type="number" name="witnesses" id="witnesses" placeholder="witnesses"   required>
+                        &nbsp;&nbsp;
+
+                        <!-- One Hot-->
+                        <label for="police_report_available"><b>Police report Available</b></label>&nbsp;&nbsp;
+                        <select name="police_report_available" id="police_report_available">
+                            <option value=1>YES</option>
+                            <option value=0>NO</option>
                         </select>
-                        &nbsp; &nbsp;
-
-                        
-
-                        <label for="Dosage"><b>Dosage</b></label>
-                        <select name="Dosage" id="Dosage" >
-                            <option value="300mg">300mg</option>
-                            <option value="200mg">200mg</option>
-                            <option value="600mg">600mg</option>
-                            <option value="150/300mg">150/300mg</option>
-                            <option value="150/300/200mg">150/300/200mg</option>
-                            <option value="10mg/ml">10mg/ml</option>
-                            <option value="150mg">150mg</option>
-                            <option value="200/50mg">200/50mg</option>
-                            <option value="300/300mg">300/300mg</option>
-                            <option value="Other">Other</option>
-                        </select>
-                        &nbsp; &nbsp;
-
-                        <label for="Managed By"><b>Managed By</b></label>
-                        <select name="Managed By" id="Managed By" >
-                            <option value="South Africa Field Office">South Africa Field Office</option>
-                            <option value="PMO - US">PMO - US</option>
-                            <option value="Haiti Field Office">Haiti Field Office</option>
-                            <option value="Ethiopia Field Office">Ethiopia Field Office</option>
-                        </select>
-                        &nbsp; &nbsp;
+                        &nbsp;&nbsp;
 
                         <br><br>
-
-                        <label for="Fulfill Via"><b>Fulfill Via</b></label>
-                        <select name="Fulfill Via" id="Fulfill Via">
-                            <option value="1">Retail Distribution</option>
-                            <option value="0">Direct Drop</option>
+                            <!-- One Hot-->
+                        <label for="property_damage"><b>Property Damage</b></label>&nbsp;&nbsp;
+                        <select name="property_damage" id="property_damage">
+                            <option value=1>YES</option>
+                            <option value=0>NO</option>
                         </select>
-                        &nbsp; &nbsp;
+                        &nbsp;&nbsp;
+                        <!-- Numeric -->
+                        <label for="property_claim"><b>Property Claim</b></label>&nbsp;&nbsp;
+                        <input type="number" name="property_claim" id="property_claim" placeholder="in USD" required>
+                        &nbsp;&nbsp;
+                        <!-- Numeric -->
+                        <label for="vehicle_claim"><b>Vehicle Claim</b></label>&nbsp;&nbsp;
+                        <input type="number" name="vehicle_claim" id="vehicle_claim" placeholder="in USD" required>
+                        &nbsp;&nbsp;
+                        <!-- Numeric -->
+                        <label for="injury_claim"><b>Injury Claim</b></label>&nbsp;&nbsp;
+                        <input type="number" name="injury_claim" id="injury_claim" placeholder="in USD" required>
+                        &nbsp;&nbsp;
 
-                        <label for="Shipment Mode"><b>Shipment Mode</b></label>
-                        <select name="Shipment Mode" id="Shipment Mode">
-                            <option value="Air">Air</option>
-                            <option value="Truck">Truck</option>
-                            <option value="Air Charter">Air Charter</option>
-                            <option value="Ocean">Ocean</option>
+                        <!-- Mean Encoding -->
+                        <label for="policy_csl"><b>Policy CSL</b></label>&nbsp;&nbsp;
+                        <select name="policy_csl" id="policy_csl">
+                            <option value="100/300">100/300</option>
+                            <option value="100/300">100/300</option>
+                            <option value="500/1000">500/1000</option>
                         </select>
-                        &nbsp; &nbsp;
+                        &nbsp;&nbsp;
+                        <br><br>
+                        <!-- Numeric -->
+                        <label for="umbrella_limit"><b>Umbrella Limit</b></label>&nbsp;&nbsp;
+                        <input type="number" name="umbrella_limit" id="umbrella_limit" placeholder="in USD" required>
+                        &nbsp;&nbsp;
+                        <!-- Date -->
+                        <label for="policy_bind_date"><b>Policy Bind Date</b></label>&nbsp;&nbsp;
+                        <input type="date" name="policy_bind_date" id="policy_bind_date" required>
+                        &nbsp;&nbsp;
+                        <!-- date input format :dd-mm-yyyy  required : yyyy-mm-dd CHANGEFORMAT-->
 
-                        <label for="dlvry_delay"><b>Delivery Delay Time</b></label>
-                        <input type="number" id="dlvry_delay" name="dlvry_delay" placeholder=" in Days" step="any" >
-                        &nbsp; &nbsp;
+                        <label for="incident_date"><b>Incident Date</b></label>&nbsp;&nbsp;
+                        <input type="date" name="incident_date" id="incident_date" required>
+                        &nbsp;&nbsp;
+                        <!-- claim_duration = policy_bind_date -incident_date -->
 
-                        <label for="dlvry_verif_time_delay"><b>Delivery Verif. Time</b></label>
-                        <input type="number" id="dlvry_verif_time_delay" name="dlvry_verif_time_delay" placeholder=" in Days" step="any" >
-                        &nbsp; &nbsp;
-
-
-                        <label for="Unit of Measure (Per Pack)"><b>Quantity of pills/kits</b></label>
-                        <input type="number" id="Unit of Measure (Per Pack)" name="Unit of Measure (Per Pack)" placeholder="quant per pack" step="any" >
-
+                        <label for="insured_occupation"><b>Occupation</b></label>&nbsp;&nbsp;
+                        <select name="insured_occupation" id="insured_occupation">
+                            <option value=6>priv-house-serv</option>
+                            <option value=7>adm-clerical</option>
+                            <option value=8>handlers-cleaners</option>
+                            <option value=9>prof-specialty</option>
+                            <option value=10>protective-serv</option>
+                            <option value=11>machine-op-inspct</option>
+                            <option value=12>armed-forces</option>
+                            <option value=13>sales</option>
+                            <option value=14>tech-support</option>
+                            <option value=15>transport-moving</option>
+                            <option value=16>craft-repair</option>
+                            <option value=17>farming-fishing</option>
+                            <option value=18>exec-managerial</option>
+                            <option value=5>other-service</option>
+                        </select>
+                        &nbsp;&nbsp;
+                        
+                        <label for="insured_relationship"><b>Relationship</b></label>&nbsp;&nbsp;
+                        <select name="insured_relationship" id="insured_relationship">
+                            <option value="husband">husband</option>
+                            <option value="not-in-family">not-in-family</option>
+                            <option value="other-relative">other-relative</option>
+                            <option value="own-child">own-child</option>
+                            <option value="unmarried">unmarried</option>
+                            <option value="wife">wife</option>
+                        </select>
+                        &nbsp;&nbsp;
                         <br><br>
 
-                        <label for="Line Item Quantity"><b>Line Item Quantity</b></label>
-                        <input type="Line Item Quantity" id="Line Item Quantity" name="Line Item Quantity" placeholder="quant of packs in Shipment" step="any" required>
-                        &nbsp; &nbsp;
-                        
-                        <label for="Pack Price"><b>Pack Price</b></label>
-                        <input type="Pack Price" id="Pack Price" name="Pack Price" placeholder="Pack Price" step="any" >
-
-                        &nbsp; &nbsp;
-
-                        <label for="Unit Price"><b>Unit Price</b></label>
-                        <input type="Unit Price" id="Unit Price" name="Unit Price" placeholder="price of one pill/kit" step="any" >
-                        &nbsp; &nbsp;
-
-                        <label for="First Line Designation"><b>First Line Designation</b></label>
-                        <select name="First Line Designation" id="First Line Designation">
-                            <option value="1">Yes</option>
-                            <option value="0">No</option>
-
+                        <label for="insured_hobbies"><b>Hobby</b></label>&nbsp;&nbsp;
+                        <select name="insured_hobbies" id="insured_hobbies">
+                            <option value="base-jumping">base-jumping</option>
+                            <option value="basketball">basketball</option>
+                            <option value="board-games">board-games</option>
+                            <option value="bungie-jumping">bungie-jumping</option>
+                            <option value="cross-fit">cross-fit</option>
+                            <option value="dancing">dancing</option>
+                            <option value="exercise">exercise</option>
+                            <option value="golf">golf</option>
+                            <option value="hiking">hiking</option>
+                            <option value="kayaking">kayaking</option>
+                            <option value="movies">movies</option>
+                            <option value="paintball">paintball</option>
+                            <option value="polo">polo</option>
+                            <option value="reading">reading</option>
+                            <option value="skydiving">skydiving</option>
+                            <option value="sleeping">sleeping</option>
+                            <option value="video-games">video-games</option>
+                            <option value="yachting">yachting</option>
                         </select>
-                        &nbsp; &nbsp;
-
-                        <label for="Weight (Kilograms)"><b>Weight (Kgs)</b></label>
-                        <input type="Weight (Kilograms)" id="Weight (Kilograms)" name="Weight (Kilograms)" placeholder="total wt. of all packs in line" step="any" >
-                        &nbsp; &nbsp;
-
-                        <br><br>
-
-                        <label for="Freight Cost (USD)"><b>Freight Cost</b></label>
-                        <input type="Freight Cost (USD)" id="Freight Cost (USD)" name="Freight Cost (USD)" placeholder="Freight Cost" step="any" >
-                        &nbsp; &nbsp;
-
-                        
-                        <label for="Freight_cost_special"><b>Freight_cost_special</b></label>
-                        <select name="Freight_cost_special" id="Freight_cost_special">
-                            <option value="Normal Measurement">Normal Measurement</option>
-                            <option value="See ASN/DN Tag">See ASN/DN Tag</option>
-                            <option value="Weight Captured Separately">Weight Captured Separately</option>
-                        </select>
-                        &nbsp; &nbsp;
-
-                        <label for="Line Item Insurance (USD)"><b>Line Item Insurance </b></label>
-                        <input type="Line Item Insurance (USD)" id="Line Item Insurance (USD)" name="Line Item Insurance (USD)" placeholder="Insurance Cost" step="any" required>
-                        &nbsp; &nbsp;
-
-                        <label for="Line Item Value"><b>Line Item Value</b></label>
-                        <input type="Line Item Value" id="Line Item Value" name="Line Item Value" placeholder="total cost of line items" step="any" required>
-                        &nbsp; &nbsp;
-
-                        <!-- item value = ( Line Item Value + Line Item insurance )/Line Item Quantity -->
-
+                        &nbsp;&nbsp;
+    
                         <input type="submit" value="Predict">
                     </form>
                     <br><br>
