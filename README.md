@@ -1,6 +1,6 @@
 # CAR-INSURANCE-FRAUD-CLASSIFICATION
 
-[![wakatime](https://wakatime.com/badge/user/8f2e3b3a-321e-4119-b4f0-3a33c3752953/project/f1c60e47-055d-4059-9946-5863bccf6e83.svg)](https://wakatime.com/badge/user/8f2e3b3a-321e-4119-b4f0-3a33c3752953/project/f1c60e47-055d-4059-9946-5863bccf6e83)
+[![wakatime](https://wakatime.com/badge/user/8f2e3b3a-321e-4119-b4f0-3a33c3752953/project/a7854631-977a-444a-bd66-1bdf27ccf8f1.svg)](https://wakatime.com/badge/user/8f2e3b3a-321e-4119-b4f0-3a33c3752953/project/a7854631-977a-444a-bd66-1bdf27ccf8f1)
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://insurance-fraud-detector-sundi.herokuapp.com/)&nbsp;
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)&nbsp;
 <img src="https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg">&nbsp;
@@ -76,11 +76,11 @@ Python Notebook : https://github.com/Shashank-Sundi/NOTEBOOKS/blob/main/INSURANC
 
 ### **Enter the required inputs in home page and press predict button**
 
-<img src="static\images\homeww.PNG" alt="FIFA" style="height: 300px; width:700px;"/>
+<img src="static\images\home fraud.PNG" alt="FIFA" />
 
 ### **The Prediction Page**
 
-<img src="static\images\resultt.PNG" alt="FIFA" style="height: 300px; width:700px;"/>
+<img src="static\images\result fraud.PNG" alt="FIFA" />
 
 <hr>
   
