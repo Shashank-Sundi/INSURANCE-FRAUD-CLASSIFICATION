@@ -64,7 +64,7 @@ def aggregate_data():
         insured_relationship=request.form['insured_relationship']
         insured_hobbies=request.form['insured_hobbies']
 
-        log_writer.log(log_message="\n\nCollected inputs from HTML form")
+        log_writer.log(log_message="Collected inputs from HTML form")
 
         data = [[incident_type,collision_type,incident_severity, auto_make,
                 incident_state, incident_city,number_of_vehicles_involved

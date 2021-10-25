@@ -4,6 +4,7 @@ from Log_Writer.logger import App_Logger
 from Raw_Data_Formatter.data_formatter import formatter
 from Data_Validator.data_validator import Validator
 from Preprocessing.preprocessor import Preprocessor
+from Get_Model_for_Cluster.model_finder import Find_model
 
 import sys
 
@@ -36,8 +37,18 @@ def index():
             data = Preprocessor().preprocess(data)
 
 
+            # Finding the cluster to which data point belongs
+            # and importing the model trained for that cluster
+            data,model=Find_model().get_model(data)
 
-            return render_template("results.html")
+            pred = model.predict(data)[0]
+
+            if pred == 0:
+                statement = "is not Fraudulent \n\n .The Customer is Innocent"
+            if pred == 1:
+                statement = "is Fraudulent \n\n .The Customer is a crook."
+
+            return render_template("results.html",prediction=statement)
         else:
             return render_template("index.html")
     except Exception as e:
