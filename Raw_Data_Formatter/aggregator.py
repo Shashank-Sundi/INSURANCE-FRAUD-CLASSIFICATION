@@ -18,14 +18,14 @@ def aggregate_data():
         if request.form['number_of_vehicles_involved']=="":
             number_of_vehicles_involved=np.nan
         else:
-            number_of_vehicles_involved=int(request.form['number_of_vehicles_involved'])
+            number_of_vehicles_involved=float(request.form['number_of_vehicles_involved'])
 
         authorities_contacted=int(request.form['authorities_contacted'])
 
         if request.form['witnesses']=="":
             witnesses=np.nan
         else:
-            witnesses=int(request.form['witnesses'])
+            witnesses=float(request.form['witnesses'])
 
         police_report_available=int(request.form['police_report_available'])
         property_damage = int(request.form['property_damage'])
@@ -58,7 +58,7 @@ def aggregate_data():
         policy_bind_date = pd.to_datetime(policy_bind_date)
         incident_date = pd.to_datetime(incident_date)
 
-        claim_duration = (incident_date-policy_bind_date).days
+        claim_duration = int((incident_date-policy_bind_date).days)
 
         insured_occupation=int(request.form['insured_occupation'])
         insured_relationship=request.form['insured_relationship']
@@ -77,5 +77,5 @@ def aggregate_data():
         return data
 
     except Exception as e:
-        log_writer.log(log_message="ERROR occured in Data Collection and Aggregation")
+        log_writer.log(log_message="\nERROR occured in Data Collection and Aggregation\n")
         return print(e)

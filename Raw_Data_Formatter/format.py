@@ -17,5 +17,5 @@ def forrmat(data):
         return data
 
     except Exception as e:
-        log_writer.log(log_message="ERROR occured in converting Raw Data to DataFrame")
+        log_writer.log(log_message="\nERROR occured in converting Raw Data to DataFrame\n")
         return print(e)

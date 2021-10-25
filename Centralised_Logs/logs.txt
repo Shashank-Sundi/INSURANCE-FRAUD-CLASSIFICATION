@@ -22,3 +22,178 @@ DATE : 2021-10-25 --- TIME : 13:56:34 		 Aggregated data inputs from HTML form
 DATE : 2021-10-25 --- TIME : 13:56:39 		 Converting raw data to DataFrame 
 DATE : 2021-10-25 --- TIME : 13:56:41 		 Converted Raw Data to DataFrame 
 DATE : 2021-10-25 --- TIME : 13:56:44 		 Formatted Data Successfully 
+DATE : 2021-10-25 --- TIME : 13:55:40 		 Rendered Home Page 
+DATE : 2021-10-25 --- TIME : 15:49:56 		 Collected inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 15:49:56 		 Aggregated data inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 15:49:56 		 Converting raw data to DataFrame 
+DATE : 2021-10-25 --- TIME : 15:49:57 		 Converted Raw Data to DataFrame 
+DATE : 2021-10-25 --- TIME : 15:49:57 		 Formatted Data Successfully 
+DATE : 2021-10-25 --- TIME : 15:49:57 		 Extracted column length and column names from schema 
+DATE : 2021-10-25 --- TIME : 15:49:57 		 Column Length Validated 
+DATE : 2021-10-25 --- TIME : 15:49:57 		 Column Names Validated 
+DATE : 2021-10-25 --- TIME : 15:49:57 		 
+The data type of values in column number_of_vehicles_involved is not same as int64
+ 
+DATE : 2021-10-25 --- TIME : 15:49:57 		 
+ERROR in the data type of input data
+ 
+DATE : 2021-10-25 --- TIME : 15:49:57 		 
+The data type of values in column witnesses is not same as int64
+ 
+DATE : 2021-10-25 --- TIME : 15:49:57 		 
+ERROR in the data type of input data
+ 
+DATE : 2021-10-25 --- TIME : 15:49:57 		 
+The data type of values in column insured_occupation is not same as object
+ 
+DATE : 2021-10-25 --- TIME : 15:49:57 		 
+ERROR in the data type of input data
+ 
+DATE : 2021-10-25 --- TIME : 15:49:57 		 
+ERROR occured in data validation
+ 
+DATE : 2021-10-25 --- TIME : 15:49:57 		 Collected inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 15:49:57 		 Aggregated data inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 15:49:57 		 Converting raw data to DataFrame 
+DATE : 2021-10-25 --- TIME : 15:49:57 		 Converted Raw Data to DataFrame 
+DATE : 2021-10-25 --- TIME : 15:49:57 		 Formatted Data Successfully 
+DATE : 2021-10-25 --- TIME : 15:49:57 		 Extracted column length and column names from schema 
+DATE : 2021-10-25 --- TIME : 15:49:57 		 Column Length Validated 
+DATE : 2021-10-25 --- TIME : 15:49:57 		 Column Names Validated 
+DATE : 2021-10-25 --- TIME : 15:49:57 		 
+The data type of values in column number_of_vehicles_involved is not same as int64
+ 
+DATE : 2021-10-25 --- TIME : 15:49:57 		 
+ERROR in the data type of input data
+ 
+DATE : 2021-10-25 --- TIME : 15:49:57 		 
+The data type of values in column witnesses is not same as int64
+ 
+DATE : 2021-10-25 --- TIME : 15:49:57 		 
+ERROR in the data type of input data
+ 
+DATE : 2021-10-25 --- TIME : 15:49:57 		 
+The data type of values in column insured_occupation is not same as object
+ 
+DATE : 2021-10-25 --- TIME : 15:49:57 		 
+ERROR in the data type of input data
+ 
+DATE : 2021-10-25 --- TIME : 15:49:57 		 
+ERROR occured in data validation
+ 
+DATE : 2021-10-25 --- TIME : 15:49:58 		 Collected inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 15:49:58 		 Aggregated data inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 15:49:58 		 Converting raw data to DataFrame 
+DATE : 2021-10-25 --- TIME : 15:49:58 		 Converted Raw Data to DataFrame 
+DATE : 2021-10-25 --- TIME : 15:49:58 		 Formatted Data Successfully 
+DATE : 2021-10-25 --- TIME : 15:49:58 		 Extracted column length and column names from schema 
+DATE : 2021-10-25 --- TIME : 15:49:58 		 Column Length Validated 
+DATE : 2021-10-25 --- TIME : 15:49:58 		 Column Names Validated 
+DATE : 2021-10-25 --- TIME : 15:49:58 		 
+The data type of values in column number_of_vehicles_involved is not same as int64
+ 
+DATE : 2021-10-25 --- TIME : 15:49:58 		 
+ERROR in the data type of input data
+ 
+DATE : 2021-10-25 --- TIME : 15:49:58 		 
+The data type of values in column witnesses is not same as int64
+ 
+DATE : 2021-10-25 --- TIME : 15:49:58 		 
+ERROR in the data type of input data
+ 
+DATE : 2021-10-25 --- TIME : 15:49:58 		 
+The data type of values in column insured_occupation is not same as object
+ 
+DATE : 2021-10-25 --- TIME : 15:49:58 		 
+ERROR in the data type of input data
+ 
+DATE : 2021-10-25 --- TIME : 15:49:58 		 
+ERROR occured in data validation
+ 
+DATE : 2021-10-25 --- TIME : 15:54:36 		 Collected inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 15:54:36 		 Aggregated data inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 15:54:38 		 Converting raw data to DataFrame 
+DATE : 2021-10-25 --- TIME : 15:54:39 		 Formatted Data Successfully 
+DATE : 2021-10-25 --- TIME : 15:54:39 		 Extracted column length and column names from schema 
+DATE : 2021-10-25 --- TIME : 15:54:39 		 Column Length Validated 
+DATE : 2021-10-25 --- TIME : 15:54:39 		 Column Names Validated 
+DATE : 2021-10-25 --- TIME : 15:54:39 		 
+The data type of values in column number_of_vehicles_involved is not same as int64
+ 
+DATE : 2021-10-25 --- TIME : 15:54:39 		 
+ERROR in the data type of input data
+ 
+DATE : 2021-10-25 --- TIME : 15:54:39 		 
+The data type of values in column witnesses is not same as int64
+ 
+DATE : 2021-10-25 --- TIME : 15:54:39 		 
+ERROR in the data type of input data
+ 
+DATE : 2021-10-25 --- TIME : 15:54:40 		 
+The data type of values in column insured_occupation is not same as object
+ 
+DATE : 2021-10-25 --- TIME : 15:54:40 		 
+ERROR in the data type of input data
+ 
+DATE : 2021-10-25 --- TIME : 15:54:40 		 
+ERROR occured in data validation
+ 
+DATE : 2021-10-25 --- TIME : 15:54:49 		 Collected inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 15:54:51 		 Converting raw data to DataFrame 
+DATE : 2021-10-25 --- TIME : 15:54:51 		 Formatted Data Successfully 
+DATE : 2021-10-25 --- TIME : 15:54:51 		 Extracted column length and column names from schema 
+DATE : 2021-10-25 --- TIME : 15:54:51 		 Column Length Validated 
+DATE : 2021-10-25 --- TIME : 15:54:51 		 Column Names Validated 
+DATE : 2021-10-25 --- TIME : 15:54:51 		 
+The data type of values in column number_of_vehicles_involved is not same as int64
+ 
+DATE : 2021-10-25 --- TIME : 15:54:51 		 
+ERROR in the data type of input data
+ 
+DATE : 2021-10-25 --- TIME : 15:54:51 		 
+The data type of values in column witnesses is not same as int64
+ 
+DATE : 2021-10-25 --- TIME : 15:54:51 		 
+ERROR in the data type of input data
+ 
+DATE : 2021-10-25 --- TIME : 15:54:51 		 
+The data type of values in column insured_occupation is not same as object
+ 
+DATE : 2021-10-25 --- TIME : 15:54:51 		 
+ERROR in the data type of input data
+ 
+DATE : 2021-10-25 --- TIME : 15:54:51 		 
+ERROR occured in data validation
+ 
+DATE : 2021-10-25 --- TIME : 15:57:31 		 Collected inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 15:57:40 		 Converting raw data to DataFrame 
+DATE : 2021-10-25 --- TIME : 15:57:35 		 Aggregated data inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 15:57:42 		 Converted Raw Data to DataFrame 
+DATE : 2021-10-25 --- TIME : 15:57:46 		 Formatted Data Successfully 
+DATE : 2021-10-25 --- TIME : 15:58:16 		 Extracted column length and column names from schema 
+DATE : 2021-10-25 --- TIME : 15:58:21 		 Column Length Validated 
+DATE : 2021-10-25 --- TIME : 15:56:49 		 Rendered Home Page 
+DATE : 2021-10-25 --- TIME : 16:01:41 		 Collected inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 16:01:43 		 Converting raw data to DataFrame 
+DATE : 2021-10-25 --- TIME : 16:01:43 		 Formatted Data Successfully 
+DATE : 2021-10-25 --- TIME : 16:01:47 		 Extracted column length and column names from schema 
+DATE : 2021-10-25 --- TIME : 16:01:53 		 Column Length Validated 
+DATE : 2021-10-25 --- TIME : 16:08:10 		 Collected inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 16:08:11 		 Converting raw data to DataFrame 
+DATE : 2021-10-25 --- TIME : 16:08:11 		 Formatted Data Successfully 
+DATE : 2021-10-25 --- TIME : 16:08:16 		 Extracted column length and column names from schema 
+DATE : 2021-10-25 --- TIME : 16:08:18 		 Column Length Validated 
+DATE : 2021-10-25 --- TIME : 16:15:07 		 Collected inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 16:15:07 		 Aggregated data inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 16:15:07 		 Converting raw data to DataFrame 
+DATE : 2021-10-25 --- TIME : 16:15:07 		 Formatted Data Successfully 
+DATE : 2021-10-25 --- TIME : 16:15:10 		 Extracted column length and column names from schema 
+DATE : 2021-10-25 --- TIME : 16:15:12 		 Column Length Validated 
+DATE : 2021-10-25 --- TIME : 16:16:27 		 Collected inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 16:16:27 		 Aggregated data inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 16:16:28 		 Converting raw data to DataFrame 
+DATE : 2021-10-25 --- TIME : 16:16:28 		 Formatted Data Successfully 
+DATE : 2021-10-25 --- TIME : 16:16:32 		 Extracted column length and column names from schema 
+DATE : 2021-10-25 --- TIME : 16:16:33 		 Column Length Validated 
+DATE : 2021-10-25 --- TIME : 16:16:34 		 Column Names Validated 
+DATE : 2021-10-25 --- TIME : 16:17:01 		 Data Validation Successfull 
