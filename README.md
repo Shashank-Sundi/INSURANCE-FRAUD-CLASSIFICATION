@@ -33,7 +33,7 @@ Python Notebook : https://github.com/Shashank-Sundi/NOTEBOOKS/blob/main/INSURANC
 
 | PROBLEM | MODELS USED  |LIBRARIES USED   |IDE's USED|
 | :-------- | :------- | :------------------------- | :-------|
-| **Predicting if a patient suffers from Thyroid Disease**| `LINEAR REG,` `ELASTIC/RIDGE REG,` `KNN,` `KMEANS,` `SVM,` `DECISION TREE,` `RANDOM FOREST,` `XGBOOST` | `Sklearn ,` ` Seaborn ,` `Pandas ,` `Numpy ,` `Scipy ,` `Xgboost `|`PyCharm,` `VS Code,` `Jupyter Notebook`|
+| **Predicting if a patient suffers from Thyroid Disease**| `Logistic Regression,`  `KNN,` `Kmeans,` `SVC,` `Naive Bayes,` `Bagging-Dtree,` `Adaboost` `Random Forest,` `XGBoost` | `Sklearn ,` ` Seaborn ,` `Plotly,` `Joypy,` `Pandas ,` `Numpy ,` `Scipy ,` `Xgboost `|`PyCharm,` `VS Code,` `Jupyter Notebook`|
 
 <hr>
 
@@ -44,16 +44,25 @@ Python Notebook : https://github.com/Shashank-Sundi/NOTEBOOKS/blob/main/INSURANC
 | **Step**|**Execution of the project was carried out as given in the following steps :** |
 | :--------|:-------- | 
 |1| Validated and rectified the data types of the features and analysed their statistical properties|
-|2|Performed EDA on data - checked the distribution of data using NPP, KDE plots , visualized relation between the different features
-|3| Performed Random Sample Imputation for Categorical columns and KNN imputation for Numerical Columns
-|4|Encoded top 10 categories in all columns using Frequency Encoding and mapping
-|6|Visualized Outliers via BoxPlots and removed the possible Outliers , by manually setting the threshold
-|7| Visualized the correlation matrix and removed highly correlated columns
-|9|Clustered the dataset into 3 clusters , using Kmeans and the elbow graph
-|10| Metric used to evaluate models - Adjusted r2 score
-|11| Trained and tested various models on the data clusters and for each cluster , chose the model which gave highest adj r2 score
-|12|XGB Regressor gave highest adj r2 score for all clusters.Hence , we can conclude that models generalise worse after clustering ,as compared to the whole dataset.Hence we don't need to to cluster the data
-|13| Exported all required models via pickle
+|2|Performed Random Sample Imputation for Categorical columns and KNN imputation for Numerical Columns
+|3| Performed EDA on data - checked the distribution of data using NPP, KDE plots , visualized relation between the different features|
+|4|Performed Mean , Target Guided Ordinal , One-hot and frequency encoding on the various categorical features, according to the type and information of features
+|6|Visualized Outliers via BoxPlots and removed the possible Outliers
+|7| Created new features from existing date columns
+|8| Visualized the correlation matrix and removed highly correlated columns
+|9| Performed Feature Selection using various methods like SFS , SBS ,RFE,CHI2 etc. and compared overall performance of the individual features
+|10|Chose 20 features based on feature v/s performance graph from SFS
+|11| Handled the Imbalance in the dataset by using SMOTE
+|12|Clustered the dataset into 4 clusters , using Kmeans and the kmeans-elbow graph
+|13| Metric used to evaluate models - Recall and Accuracy
+|14| Trained and tested various models on the data clusters and for each cluster , chose the model which gave highest adj r2 score
+|15|By analyzing the performance of the models , it was unsderstood that the Models generalized better after clustering , hence we chose different models for each cluster
+|16|Performed Hyperparameter Tuning on all the four models
+|17|Cluster 1 - Model : Random Forest :Recall-90.34% Accuracy-89.51%
+|18|Cluster 2 - Model : KNN :Recall-100% Accuracy-100%
+|19|Cluster 3 - Model : Adaboost :Recall-100% Accuracy-96.55%
+|20|Cluster 4 - Model : Logistic Regression :Recall-100% Accuracy-87.5%
+|21| Exported all required models via pickle
 
 
 ### (B) **Building the Application**
