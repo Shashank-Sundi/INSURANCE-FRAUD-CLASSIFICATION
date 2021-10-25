@@ -1,0 +1,24 @@
+DATE : 2021-10-25 --- TIME : 13:33:11 		 Rendered Home Page 
+DATE : 2021-10-25 --- TIME : 13:35:20 		 Rendered Home Page 
+DATE : 2021-10-25 --- TIME : 13:38:43 		 ERROR occured in Data Collection and Aggregation 
+DATE : 2021-10-25 --- TIME : 13:38:43 		 Converting raw data to DataFrame 
+DATE : 2021-10-25 --- TIME : 13:38:43 		 Converted Raw Data to DataFrame 
+DATE : 2021-10-25 --- TIME : 13:38:43 		 Formatted Data Successfully 
+DATE : 2021-10-25 --- TIME : 13:39:01 		 Rendered Home Page 
+DATE : 2021-10-25 --- TIME : 13:42:43 		 Collected inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 13:41:17 		 Rendered Home Page 
+DATE : 2021-10-25 --- TIME : 13:44:19 		 Collected inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 13:44:23 		 Aggregated data inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 13:44:46 		 Converting raw data to DataFrame 
+DATE : 2021-10-25 --- TIME : 13:44:50 		 Converted Raw Data to DataFrame 
+DATE : 2021-10-25 --- TIME : 13:45:32 		 Formatted Data Successfully 
+DATE : 2021-10-25 --- TIME : 13:52:47 		 Collected inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 13:52:47 		 Aggregated data inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 13:52:47 		 Converting raw data to DataFrame 
+DATE : 2021-10-25 --- TIME : 13:52:47 		 Converted Raw Data to DataFrame 
+DATE : 2021-10-25 --- TIME : 13:52:47 		 Formatted Data Successfully 
+DATE : 2021-10-25 --- TIME : 13:56:30 		 Collected inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 13:56:34 		 Aggregated data inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 13:56:39 		 Converting raw data to DataFrame 
+DATE : 2021-10-25 --- TIME : 13:56:41 		 Converted Raw Data to DataFrame 
+DATE : 2021-10-25 --- TIME : 13:56:44 		 Formatted Data Successfully 
