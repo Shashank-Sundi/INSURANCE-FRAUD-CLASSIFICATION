@@ -8,7 +8,7 @@ def forrmat(data):
 
         data=pd.DataFrame(data=data,columns=['incident_type','collision_type','incident_severity', 'auto_make',
                             'incident_state', 'incident_city','number_of_vehicles_involved'
-                            , 'authorities_contacted','witnesses','police_report_available',
+                            ,'authorities_contacted','witnesses','police_report_available',
                             'property_claim','vehicle_claim', 'injury_claim','property_damage',
                             'policy_csl','umbrella_limit','claim_duration',
                             'insured_occupation', 'insured_relationship','insured_hobbies'])

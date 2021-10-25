@@ -197,3 +197,53 @@ DATE : 2021-10-25 --- TIME : 16:16:32 		 Extracted column length and column name
 DATE : 2021-10-25 --- TIME : 16:16:33 		 Column Length Validated 
 DATE : 2021-10-25 --- TIME : 16:16:34 		 Column Names Validated 
 DATE : 2021-10-25 --- TIME : 16:17:01 		 Data Validation Successfull 
+DATE : 2021-10-25 --- TIME : 16:16:13 		 Rendered Home Page 
+DATE : 2021-10-25 --- TIME : 18:19:25 		 
+
+Collected inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 18:19:25 		 Aggregated data inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 18:19:27 		 Converting raw data to DataFrame 
+DATE : 2021-10-25 --- TIME : 18:19:28 		 Converted Raw Data to DataFrame 
+DATE : 2021-10-25 --- TIME : 18:19:28 		 Formatted Data Successfully 
+DATE : 2021-10-25 --- TIME : 18:19:34 		 Extracted column length and column names from schema 
+DATE : 2021-10-25 --- TIME : 18:19:34 		 Column Length Validated 
+DATE : 2021-10-25 --- TIME : 18:19:34 		 Column Names Validated 
+DATE : 2021-10-25 --- TIME : 18:19:34 		 Data Validation Successfull 
+DATE : 2021-10-25 --- TIME : 18:24:35 		 
+
+Collected inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 18:24:35 		 Aggregated data inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 18:24:35 		 Converting raw data to DataFrame 
+DATE : 2021-10-25 --- TIME : 18:24:35 		 Formatted Data Successfully 
+DATE : 2021-10-25 --- TIME : 18:24:38 		 Extracted column length and column names from schema 
+DATE : 2021-10-25 --- TIME : 18:24:38 		 Column Length Validated 
+DATE : 2021-10-25 --- TIME : 18:24:38 		 Column Names Validated 
+DATE : 2021-10-25 --- TIME : 18:24:38 		 Data Validation Successfull 
+DATE : 2021-10-25 --- TIME : 18:23:56 		 Rendered Home Page 
+DATE : 2021-10-25 --- TIME : 18:33:40 		 
+
+Collected inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 18:33:40 		 Aggregated data inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 18:33:40 		 Converting raw data to DataFrame 
+DATE : 2021-10-25 --- TIME : 18:33:40 		 Formatted Data Successfully 
+DATE : 2021-10-25 --- TIME : 18:33:43 		 Extracted column length and column names from schema 
+DATE : 2021-10-25 --- TIME : 18:33:43 		 Column Length Validated 
+DATE : 2021-10-25 --- TIME : 18:33:43 		 Data Validation Successfull 
+DATE : 2021-10-25 --- TIME : 18:34:01 		 Encoded all categorical columns successfully 
+DATE : 2021-10-25 --- TIME : 18:34:27 		 
+ERROR occurred in null value imputation
+ 
+DATE : 2021-10-25 --- TIME : 18:40:03 		 
+
+Collected inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 18:40:03 		 Aggregated data inputs from HTML form 
+DATE : 2021-10-25 --- TIME : 18:40:04 		 Converting raw data to DataFrame 
+DATE : 2021-10-25 --- TIME : 18:40:04 		 Formatted Data Successfully 
+DATE : 2021-10-25 --- TIME : 18:40:08 		 Extracted column length and column names from schema 
+DATE : 2021-10-25 --- TIME : 18:40:08 		 Column Length Validated 
+DATE : 2021-10-25 --- TIME : 18:40:08 		 Column Names Validated 
+DATE : 2021-10-25 --- TIME : 18:40:08 		 Data Validation Successfull 
+DATE : 2021-10-25 --- TIME : 18:40:16 		 Encoded all categorical columns successfully 
+DATE : 2021-10-25 --- TIME : 18:40:18 		 Successfully fould columns with null values 
+DATE : 2021-10-25 --- TIME : 18:40:18 		 Null Value Imputation Completed Successfully 
+DATE : 2021-10-25 --- TIME : 18:39:38 		 Rendered Home Page 
