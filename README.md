@@ -55,7 +55,7 @@ Python Notebook : https://github.com/Shashank-Sundi/NOTEBOOKS/blob/main/INSURANC
 |11| Handled the Imbalance in the dataset by using SMOTE
 |12|Clustered the dataset into 4 clusters , using Kmeans and the kmeans-elbow graph
 |13| Metric used to evaluate models - Recall and Accuracy
-|14| Trained and tested various models on the data clusters and for each cluster , chose the model which gave highest adj r2 score
+|14| Trained and tested various models on the data clusters and for each cluster , chose the model which gave highest Accuracy and Recall
 |15|By analyzing the performance of the models , it was unsderstood that the Models generalized better after clustering , hence we chose different models for each cluster
 |16|Performed Hyperparameter Tuning on all the four models
 |17|Cluster 1 - Model : Random Forest :Recall-90.34% Accuracy-89.51%
