@@ -33,7 +33,7 @@ Python Notebook : https://github.com/Shashank-Sundi/NOTEBOOKS/blob/main/INSURANC
 
 | PROBLEM | MODELS USED  |LIBRARIES USED   |IDE's USED|
 | :-------- | :------- | :------------------------- | :-------|
-| **Predicting if a patient suffers from Thyroid Disease**| `Logistic Regression,`  `KNN,` `Kmeans,` `SVC,` `Naive Bayes,` `Bagging-Dtree,` `Adaboost` `Random Forest,` `XGBoost` | `Sklearn ,` ` Seaborn ,` `Plotly,` `Joypy,` `Pandas ,` `Numpy ,` `Scipy ,` `Xgboost `|`PyCharm,` `VS Code,` `Jupyter Notebook`|
+| **Predicting if a car insurance claim is fraudulent or not**| `Logistic Regression,`  `KNN,` `Kmeans,` `SVC,` `Naive Bayes,` `Bagging-Dtree,` `Adaboost` `Random Forest,` `XGBoost` | `Sklearn ,` ` Seaborn ,` `Plotly,` `Joypy,` `Pandas ,` `Numpy ,` `Scipy ,` `Xgboost `|`PyCharm,` `VS Code,` `Jupyter Notebook`|
 
 <hr>
 
